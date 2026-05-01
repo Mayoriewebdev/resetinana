@@ -29,33 +29,44 @@
 
 
 
-    <section class="reset-section">
+     <section class="reset-section">
 
-        <div class="reset-container">
+    <div class="reset-container">
 
-            <!-- TOP IMAGE -->
-            <div class="reset-image">
-                <img src="images/Save icon.png" alt="reset image">
-            </div>
-
-            <!-- TITLE IMAGE -->
-            <div class="reset-title-img">
-                <img src="images/reset password text.png" alt="Reset Password">
-            </div>
-
-            <!-- TEXT IMAGE -->
-            <div class="reset-text-img">
-                <img src="images/textreset.png" alt="Reset instructions">
-            </div>
-
-            <!-- BUTTON IMAGE -->
-            <div class="reset-btn-img">
-                <img src="images/next icon.png" alt="Next button">
-            </div>
-
+        <!-- TOP IMAGE -->
+        <div class="reset-image" data-aos="fade-down">
+            <img src="images/Save icon.png" alt="reset image">
         </div>
 
-    </section>
+        <!-- TITLE IMAGE -->
+        <div class="reset-title-img" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/reset password text.png" alt="Reset Password">
+        </div>
+
+        <!-- TEXT IMAGE -->
+        <div class="reset-text-img" data-aos="fade-up" data-aos-delay="200">
+            <img src="images/textreset.png" alt="Reset instructions">
+        </div>
+
+        <!-- BUTTON IMAGE -->
+        <div class="reset-btn-img" data-aos="zoom-in" data-aos-delay="300">
+            <img src="images/next icon.png" alt="Next button">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,
+        once: true
+    });
+</script>
 
 </body>
 
