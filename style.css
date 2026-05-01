@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+
+    position: relative;
+}
+
+/* LOGO */
+.logo img {
+    height: 45px;
+}
+
+
+/* EXTRA SMALL DEVICES */
+@media(max-width:500px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+}
+
+/* end navbar */
+
+
+
+
+
+
+
+/* RESET SECTION */
+/* RESET SECTION */
+.reset-section {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+.reset-container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* TOP IMAGE */
+.reset-image img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+/* TITLE IMAGE (controls size like h1) */
+.reset-title-img img {
+    width: 100%;
+    max-width: 260px;   /* similar to your 36px title */
+    height: auto;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+/* TEXT IMAGE */
+.reset-text-img img {
+    width: 100%;
+    max-width: 300px;   /* similar to paragraph width */
+    height: auto;
+    margin: 35px auto 40px;
+    display: block;
+}
+
+/* BUTTON IMAGE */
+.reset-btn-img img {
+    width: 70%;
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px; /* add this */
+}
+
+.reset-btn-img img:hover {
+    transform: scale(1.05);
+}
+
+/* MOBILE */
+@media(max-width:500px) {
+
+    .reset-title-img img {
+        max-width: 220px;
+    }
+
+    .reset-text-img img {
+        max-width: 260px;
+    }
+
+    .reset-btn-img img {
+        width: 100%;
+    }
+}
